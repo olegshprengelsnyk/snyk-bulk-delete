@@ -2,7 +2,7 @@ import sys, getopt, os, snyk
 from yaspin import yaspin
 from helperFunctions import *
 
-helpString ='''--help/-h : Returns this page \n--origins : Defines origin types of projects to delete\n--orgs/-o : A set of orgs upon which to perform delete (use * for all orgs)\n--scatypes : Defines SCA type/s of projects to deletes \n--products : Defines product/s types of projects to delete \n* Please replace spaces with dashes(-) when entering orgs \n* If entering multiple values use the following format: "value-1 value-2 value-3"
+helpString ='''--help/-h : Returns this page \n--dryrun : Add this flag to perform a dry run of script which doesn't actually delete any projects \n--origins : Defines origin types of projects to delete\n--orgs/-o : A set of orgs upon which to perform delete (use * for all orgs)\n--scatypes : Defines SCA type/s of projects to deletes \n--products : Defines product/s types of projects to delete \n* Please replace spaces with dashes(-) when entering orgs \n* If entering multiple values use the following format: "value-1 value-2 value-3"
             '''
 
 userOrgs = []
