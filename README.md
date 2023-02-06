@@ -16,6 +16,7 @@ Within the cloned repo run <pre><code>python3 snyk-bulk-delete.py (add flags her
 --scatypes : Defines SCA type/s of projects to deletes<br>
 --products : Defines product/s types of projects to delete<br>
 --origins : Defines origin types of projects to delete<br>
+--dryrun : Add this flag to perform a dry run of script which doesn't actually delete any projects<br>
  * Please replace spaces with dashes(-) when entering orgs <br>
  * If entering multiple values use the following format: "value-1 value-2 value-3"
 </code></pre>
