@@ -11,9 +11,11 @@ Clone this repo and run <pre><code>pip -r requirements.txt</pre></code><br>
 Within the cloned repo run <pre><code>python3 snyk-bulk-delete.py (add flags here)</code></pre><br> add the necessary flags listed below <br>
 
 <pre><code>
---help/-h : Returns this page \n--orgs/-o : A set of orgs upon which to perform delete (use ! for all orgs<br>
+--help/-h : Returns this page \n--orgs/<br>
+-o : A set of orgs upon which to perform delete (use ! for all orgs<br>
 --scatypes : Defines SCA type/s of projects to deletes<br>
 --products : Defines product/s types of projects to delete<br>
+--origins : Defines origin types of projects to delete<br>
  * Please replace spaces with dashes(-) when entering orgs <br>
  * If entering multiple values use the following format: "value-1 value-2 value-3"
 </code></pre>
